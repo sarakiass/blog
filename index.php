@@ -15,7 +15,7 @@ try
  {
     die ('Erreur:' .$e->getMessage());
  }
-?>
+    $reponse=$bdd->query('SELECT id,titre,contenu,DATE_FORMAT(date,'%d%m%Y %Hh%imin%ss') AS date_création FROM billets ORDER BY date_création DESC LIMIT 0,1'); 
 
 
 
