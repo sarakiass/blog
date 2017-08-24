@@ -26,7 +26,7 @@ try
     </h4>
 <p>
  <?php echo $donnes['contenu'];?></br>
- < a href="commentaires.php"> commentaires</a>
+ <a href="commentaires.php"> commentaires</a>
 
 </p>
 <?php 
