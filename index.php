@@ -9,7 +9,7 @@
  <?php
 try
 {
-	$bdd=new PDO('mysql:host=localhost;dbname=blog;charset=UTF-8,'root'');
+	$bdd=new PDO('mysql:host=localhost;dbname=blog;charset=UTF-8','root' );
 }
  catch (Exception $e)
  {
